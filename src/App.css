@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  padding: 1em;
+  text-align: center;
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  margin: 2em;
+  grid-gap: 2em;
+}
+
+.news {
+  padding: 1em;
+  border-radius: .3em;
+  border: 2px solid #eee;
+  cursor: pointer;
+  transition: box-shadow .3s ease-in-out;
+}
+
+.news:hover {
+  box-shadow: 3px -1px 33px 0px rgba(0,0,0,0.12);
+}
+
+.news img {
+  width: 45vw;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.site--name {
+  font-weight: 200;
+  font-size: .8em;
+  padding: .5em 0;
+}
+
+.site--title {
+  font-weight: 600;
+  font-size: 1.3em;
+} 
+
+.site--desc {
+  font-weight: 400;
+  font-size: .9em;
+  padding-top: .3em;
+}
+
+@media (max-width: 960px) {
+  .news-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .news img {
+    width: 90vw;
+  }
+}
