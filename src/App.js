@@ -10,7 +10,7 @@ function App() {
       .then((response) => response.json())
       .then((data) => {
         setNewsList(data);
-        console.log(data);
+        //console.log(data);
       });
   }, []);
 
