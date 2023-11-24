@@ -9,13 +9,58 @@
 .App {
   min-height: 100vh;
   overflow: hidden;
+  background: rgba(227, 240, 255, 0.31);
 }
 
-.title {
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header p {
+  margin-bottom: 0;
+}
+
+.container h1 {
+  padding: .5em;
+  font-size: 34px;
+  font-weight: 600;
+  padding-left: 0;
+  color: #0C2F59;
+}
+
+.mycard {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 43px 35px 76px 0px rgba(0, 0, 0, 0.03), -6px -9px 48px 0px rgba(52, 127, 215, 0.18) inset;
+}
+
+.mycard img {
+  border-radius: 20px 20px 0 0;
+}
+
+.main-card-body {
   padding: 1em;
-  text-align: center;
-  background-color: cornflowerblue;
-  color: #fff;
+}
+
+.main-card-text {
+  margin-bottom: 0.2em;
+  font-size: 14px;
+}
+
+.main-card-title {
+  color: #07274D;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-img-top {
+  padding: 1em 1em 0 1em;
+  border-radius: 12px;
 }
 
 .news-container {
@@ -25,6 +70,41 @@
   margin: 2em;
   grid-gap: 2em;
 }
+
+.smallcard {
+  padding: 0.3em;
+  max-height: 100vh;
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 43px 35px 76px 0px rgba(0, 0, 0, 0.03), -6px -9px 48px 0px rgba(52, 127, 215, 0.18) inset;
+}
+
+.smallcard img {
+  height: 50vh;
+  border-radius: 10px 10px 0 0;
+}
+
+.small-card-body {
+  padding: 1em;
+}
+
+.small-card-text {
+  margin-bottom: 0.2em;
+  font-size: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+}
+
+.small-card-title {
+  color: #07274D;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
 
 .news {
   padding: 1em;
@@ -59,6 +139,38 @@
   font-weight: 400;
   font-size: .9em;
   padding-top: .3em;
+}
+
+footer {
+  margin-top: 2em;
+  color: #262626;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  align-items: center;
+  padding: 1.5em 3em;
+}
+
+.footer-content a {
+  text-decoration: none;
+}
+
+.footer-content p {
+  font-size: 1em;
+  font-weight: 600;
+  padding-top: 5px;
+  margin-bottom: 0.5em; /* Add some spacing between text and icon */
+}
+
+.footer-name {
+  font-weight: 600;
+  padding: 10px;
+  background: rgba(225,236,244,.6);
+  border-radius: .3em;
+  color: #262626;
 }
 
 @media (max-width: 960px) {
