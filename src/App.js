@@ -78,7 +78,7 @@ function App() {
   <footer>
     <div className="footer-content">
         <p>Brought to you with ❤️ by </p>
-        <a href="https://github.com/Tauhid-Patel" target="_blank">
+        <a href="https://github.com/Tauhid-Patel" target="_blank" rel="noreferrer">
             <span className="footer-name">@tauhidpatel</span>
         </a>
     </div>
