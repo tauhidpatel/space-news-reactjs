@@ -1,27 +1,18 @@
 # Space News API with ReactJS
-![tauhid-space-news](https://github.com/Tauhid-Patel/space-news-reactjs/assets/43630196/9b1430fd-556a-47fa-9e80-e588198891bb)
+![tauhid-space-news-new-ui](image.png)
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 
-## Introduction
-The Space News API with ReactJS is a web application that fetches and displays space-related news from API. Leveraging the power of React's `useState` and `useEffect`, this application provides users with the latest space news in a user-friendly manner.
+## WHAT IS THIS ?
+Space Odyssey News is a cosmic adventure into real-time space news, bringing the latest updates directly to your orbit. Fueled by APIs and React, this app ensures users are cosmically connected around the globe with latest tea.
 
-## Demo
-Check out the live demo [here](https://admirable-boba-22cc1b.netlify.app/)!
+## WHERE CAN I FIND THIS?
+Check out the live demo by clicking [here](https://admirable-boba-22cc1b.netlify.app/)!
 
-## Features
-- Fetch Space News: The application fetches space-related news from your custom API.
-- Display News: Space news articles are displayed on the screen with relevant details.
-- User-friendly Interface: The application offers an intuitive and easy-to-navigate user interface.
+## WHY SHOULD YOU USE THIS ?
+- Real-time Data: Space Odyssey News serves news straight from the celestial kettle every time something happens!
+- Display News: Witness space news articles gracefully pirouette onto your screen.
+- User-friendly Interface: The application boasts an interface so user-friendly that even a Martian would feel right at home. Explore the latest space news with a single click.
 
-## Installation
-As a web-based application, there is no installation required to view the Space News API. Simply access the live demo through the provided link [here](https://admirable-boba-22cc1b.netlify.app/) to explore the latest space news.
-
-## Usage
-1. The application will fetch space news from API and display the articles on the screen.
-2. Browse through the space news articles and stay updated with the latest developments in the space industry.
+## HOW TO USE ?
+- Let the application do its cosmic dance, fetching space news and displaying the articles on your screen.
+- Navigate the cosmos of space news articles effortlessly, staying informed about the latest happenings in the intergalactic industry.
